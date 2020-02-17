@@ -37,7 +37,7 @@ The instructions are below!
     10. Done !
 ```
 ## Support 
-If you have any problems send me an email at github-support@vibecheck.ml
+If you have any problems send me an email at github@vibecheck.ml
 ## Thank You
 I just wanted to say thank you to [SpopovabgS](https://github.com/SpopovabgS) for making   
 and to [MaxiGamer](https://www.deviantart.com/maxigamer) on DeviantArt for making the [Crewniverse](https://www.deviantart.com/maxigamer/art/Crewniverse-Font-V-5-MORE-ACCENTS-AND-SYMBOLS-540122768) font used in the site! 
