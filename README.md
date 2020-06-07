@@ -1,5 +1,4 @@
-**Hi, Joshua here,  
-All copyright belongs to Rebecca Sugar / Cartoon Network Studios. (Please don't sue me)**
+### I think at this point this could be called archived...
 # Steven Universe - title card generator!
 This is a fork of a Steven Universe title card generator; You can find it [Here](https://github.com/SpopovabgS/SU-titlecard-generator) it was made by [SpopovabgS](https://github.com/SpopovabgS)
 ## How does this work?
