@@ -14,16 +14,16 @@
     margin: 0;
     padding: 0;
     width: auto;
+    
 }
 
 body {
-    background-image: url('bg_1.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .container {
-    background-color: #fff;
+    background-image: linear-gradient(to right, #cc2b5e, #753a88);
 }
 
 #canvas-container {
@@ -32,7 +32,7 @@ body {
 }
 
 .container header {
-    background-color: #f4425f;
+   background-color: #f4425f;
     padding: 35px 25px 25px 25px;
     color: #ffdb2b;
     font-size: 25px;
@@ -87,6 +87,14 @@ h2 {
     text-shadow: 1px 1px rgb(142, 14, 31);
 }
 
+p {
+    line-height: 30px;
+    font-size: 18px;
+    font-family: crewniverse_font, sans-serif;
+    font-weight: normal;
+    color: #f72a45;
+    text-shadow: 1px 1px rgb(142, 14, 31);
+}
 .customize button {
     background-color: #f72a45;
     color: white;
