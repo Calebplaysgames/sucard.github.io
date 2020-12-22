@@ -1,42 +1,30 @@
-### I'll be working on an update over the 2020 christmas peroid. I'll try to add Steven Universe Future
-# Steven Universe - title card generator!
-This is a fork of a Steven Universe title card generator; You can find it [Here](https://github.com/SpopovabgS/SU-titlecard-generator) it was made by [SpopovabgS](https://github.com/SpopovabgS)
-## How does this work?
-From looking through it; this project is built from HTML, JavaScript and CSS and uses V5 of the [Crewniverse](https://www.deviantart.com/maxigamer/art/Crewniverse-Font-V-5-MORE-ACCENTS-AND-SYMBOLS-540122768) font made by [MaxiGamer](https://www.deviantart.com/maxigamer) on DeviantArt.
-## What does it work on?
-SpopovabgS only tested it on Google Chrome and Mozilla Firefox and I've tested it on the current version of  
-Microsoft Edge and Microsoft Edge Chromium.  
-(It will work on any browser that supports "Right Click --> Save as" on an image!  
-  Tested on 10/10/2019 (DD/MM/YYYY) and Windows 10 1909)
-## How to use it?
-To use the Steven Universe - title card generator just click [Here](joshua-noakes1.github.io)  
-The instructions are below!
-``` 
-    How to use the Steven Universe - title card generator 
-    
-    1. Enter your title
-    
-    2. Enter your text options; 
-    (From the testing i've done, Use what i put in there - It work for a majority of names!)
-    
-    3. Pick your other options 
-   
-    4. (Optional) Enter your Credits box
-    
-    5. Pick your background 
-    
-    6. Pick your text color 
-    
-    7. Click "Generate"
-    
-    8. Look over your made Steven Universe - title card
-    
-    9. Right Cick then save as to save your image
-    
-    10. Done !
-```
-## Support 
-If you have any problems send me an email at github@vibecheck.ml
-## Thank You
-I just wanted to say thank you to [SpopovabgS](https://github.com/SpopovabgS) for making   
-and to [MaxiGamer](https://www.deviantart.com/maxigamer) on DeviantArt for making the [Crewniverse](https://www.deviantart.com/maxigamer/art/Crewniverse-Font-V-5-MORE-ACCENTS-AND-SYMBOLS-540122768) font used in the site! 
+# [Steven Universe - Titlecard Generator](https://sutc.joshuanoakes.co.uk)
+
+## Preface
+This is a fork of the abandoned project [SU-titlecard-generator by SpopovabgS / haiku98](https://github.com/haiku98/SU-titlecard-generator)   
+
+## Site features: 
+- Generating title cards: This site lets your make Steven Universe style titlecards similar to [this](https://raw.githubusercontent.com/Joshua-Noakes1/Lake-CDN/master/CDN/Other%20Repos/SUTC/gem_finders.png)  
+- Dark Mode: Should work on any browser that tells us that you're using Dark Mode, this usally involves changing your system dark mode settings
+
+## What browsers does this site work on ?
+- This site should work on any browser that supports saving an HTML Canvas (most modern ones Chrome, Edge, Firefox)
+
+## I don't know how to use the site ?
+1. Go to [sutc.joshuanoakes.co.uk](https://sutc.joshuanoakes.co.uk)
+2. Enter the title you want in the 'Enter your title' box
+3. (Optional) Change the text settings, color setting, spacing, etc...
+4. (Optional) Add your episode credits using the 'Credits Box'
+5. Select a background
+6. Select a text color
+7. Click 'Generate'
+8. 'Right Click > Save As' to save your title card
+
+## I've found an issue, where do i report it ?
+If you take a screenshot of the error and email it to [support-sutc@joshuanoakes.co.uk](mailto:support-sutc@joshuanoakes.co.uk) I'll be happy to look into it
+
+## Credits 
+• [SpopovabgS / haiku98](https://github.com/haiku98/) for making the site that I forked  
+• [MaxiGamer](https://www.deviantart.com/maxigamer) for making the Crewniverse font   
+• [Phizzy](https://www.youtube.com/channel/UCcV1EjpBgmIKkQRTO2g529g) for creating the titlecard assets  
+• [Steven Universe](https://www.cartoonnetwork.com/) for the show

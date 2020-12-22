@@ -14,7 +14,6 @@
     margin: 0;
     padding: 0;
     width: auto;
-    
 }
 
 body {
@@ -26,13 +25,28 @@ body {
     background-image: linear-gradient(to right, #cc2b5e, #753a88);
 }
 
+.container header h1 {
+    letter-spacing: 3px;
+}
+
+.container header a,
+.container header a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container header a:hover {
+    color: #ffd3d9;
+    transition: .4s;
+}
+
 #canvas-container {
     width: 100%;
     text-align: center;
 }
 
 .container header {
-   background-color: #f4425f;
+    background-color: #f4425f;
     padding: 35px 25px 25px 25px;
     color: #ffdb2b;
     font-size: 25px;
@@ -56,6 +70,7 @@ body {
 }
 
 canvas#ep-canvas {
+    padding: 8px;
     display: inline;
     background-size: 100%;
 }
@@ -64,7 +79,7 @@ canvas#credits-canvas {
     position: absolute;
 }
 
-input[type=number]{
+input[type=number] {
     width: 50px;
 }
 
@@ -87,14 +102,6 @@ h2 {
     text-shadow: 1px 1px rgb(142, 14, 31);
 }
 
-p {
-    line-height: 30px;
-    font-size: 18px;
-    font-family: crewniverse_font, sans-serif;
-    font-weight: normal;
-    color: #f72a45;
-    text-shadow: 1px 1px rgb(142, 14, 31);
-}
 .customize button {
     background-color: #f72a45;
     color: white;
@@ -189,7 +196,7 @@ p {
     width: 700px;
 }
 
-/* other */
+/* Footer */
 
 #credits {
     padding: 25px;
@@ -198,24 +205,35 @@ p {
     text-align: center;
 }
 
+#credits p {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
 #credits h2 {
-    color: #fff;
+    line-height: 30px;
+    letter-spacing: 1px;
     font-size: 28px;
+    font-family: crewniverse_font, sans-serif;
+    font-weight: normal;
+    color: #fff;
+    text-shadow: 1px 1px rgb(142, 14, 31);
     padding-bottom: 15px;
 }
 
 #credits a,
 #credits a:visited {
+
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Raleway', sans-serif;
-    transition: .2s;
     text-decoration: none;
 }
 
 #credits a:hover {
     color: #ffd3d9;
-    transition: .2s;
+    transition: .4s;
 }
 
 /* navigation */
@@ -241,16 +259,281 @@ p {
     transition: .3s;
 }
 
-.nav li:hover > a {
+.nav li:hover>a {
     background-color: #d62c48;
     color: #ffdbdf;
     border-radius: 4px;
     transition: .3s;
 }
 
-#tutorial {
-    height: 1700px;
-    background-image: url('tutorial_1.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
+/* below should be dark mode */
+
+@media (prefers-color-scheme: dark) {
+
+    /*  rules in here will only be applied if the user's OS is in dark mode! */
+    * {
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    img {
+        filter: brightness(75%);
+    }
+
+    .container {
+        background-image: linear-gradient(to right, #a3224b, #5e2e6d);
+        text-align: center;
+    }
+
+    .container header h1 {
+        letter-spacing: 3px;
+    }
+
+    .container header a,
+    .container header a:visited {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .container header a:hover {
+        color: #ffd3d9;
+        transition: .4s;
+    }
+
+    #canvas-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container header {
+        background-color: #dc3b56;
+        padding: 35px 25px 25px 25px;
+        color: #e6c527;
+        font-size: 25px;
+        text-align: center;
+        font-family: crewniverse_font, sans-serif;
+    }
+
+    .container header p:not(#legal) {
+        color: white;
+        font-style: italic;
+        font-size: 12px;
+        letter-spacing: 3px;
+        padding-top: 20px;
+    }
+
+    .container header p#legal {
+        font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+        padding: 10px;
+        color: #ffaab5;
+    }
+
+    canvas#ep-canvas {
+        padding: 8px;
+        display: inline;
+        background-size: 100%;
+    }
+
+    canvas#credits-canvas {
+        position: absolute;
+    }
+
+    input[type=number] {
+        width: 50px;
+    }
+
+    .customize {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .customize p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    h2 {
+        line-height: 30px;
+        font-size: 18px;
+        font-family: crewniverse_font, sans-serif;
+        font-weight: normal;
+        color: #f72a45;
+        text-shadow: 1px 1px rgb(142, 14, 31);
+    }
+
+    .customize button {
+        background-color: #f72a45;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 15px;
+        border-bottom: 4px solid #bc182e;
+        transition: 0.3s;
+    }
+
+    .customize button:hover,
+    .customize button.hover {
+        cursor: pointer;
+        background: #c42136;
+        color: #fff;
+        transition: 0.3s;
+        outline: none;
+    }
+
+    .customize textarea {
+        background: #222526;
+        border-radius: 5px;
+        padding: 7px;
+        font-size: 16px;
+        border: none;
+        overflow: auto;
+        outline: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        resize: none;
+        transition: 0.2s;
+        color: white;
+    }
+
+    .customize textarea:focus,
+    .customize textarea.focus {
+        box-shadow: 0 2px 5px 0 rgba(85, 85, 85, 0.4);
+        transition: 0.2s;
+        color: white;
+    }
+
+    .customize input[type=number] {
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        padding-left: 5px;
+        border: 1px solid #d1d1d1;
+        line-height: 25px;
+        outline: none;
+        resize: none;
+        transition: 0.2s;
+    }
+
+    .customize #options,
+    .customize #choose {
+        margin-bottom: 15px;
+        line-height: 35px;
+        background-color: #222526;
+        color: #fff;
+        border-radius: 7px;
+        display: inline-block;
+        padding: 15px;
+        font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .customize #options #fontsize2,
+    .customize #options #fontsize3 {
+        display: none;
+    }
+
+    .image-dropdown {
+        display: inline-block;
+        height: auto;
+        width: 720px;
+        overflow: hidden;
+    }
+
+    .image-dropdown .img_holder {
+        display: inline;
+        cursor: pointer;
+    }
+
+    .image-dropdown .img_holder:hover {
+        opacity: .5;
+    }
+
+    .image-dropdown img.flagimgs {
+        height: 80px;
+    }
+
+    .customize #choose {
+        width: 700px;
+    }
+
+    /* Footer */
+
+    #credits {
+        padding: 25px;
+        height: auto;
+        background-color: #dc3b56;
+        text-align: center;
+    }
+
+    #credits p {
+        font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+        color: white;
+    }
+
+    #credits h2 {
+        line-height: 30px;
+        letter-spacing: 1px;
+        font-size: 28px;
+        font-family: crewniverse_font, sans-serif;
+        font-weight: normal;
+        color: #fff;
+        text-shadow: 1px 1px rgb(142, 14, 31);
+        padding-bottom: 15px;
+    }
+
+    #credits a,
+    #credits a:visited {
+
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+    }
+
+    #credits a:hover {
+        color: #ffd3d9;
+        transition: .4s;
+    }
+
+    /* navigation */
+
+    .nav {
+        list-style: none;
+        text-align: center;
+        background-color: #f4425f;
+        margin-top: -30px;
+    }
+
+    .nav li {
+        display: inline;
+    }
+
+    .nav a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'Raleway', sans-serif;
+        transition: .3s;
+    }
+
+    .nav li:hover>a {
+        background-color: #d62c48;
+        color: #ffdbdf;
+        border-radius: 4px;
+        transition: .3s;
+    }
+
 }

@@ -39,6 +39,10 @@ var userMask = document.createElement("img");
 
 var maskArray, bgArray, mask;
 
+// Text Colors and Background colors amount
+var textcoloramount = 14;
+var bgcoloramount = 22;
+
 function drawCreditsText() {
 	if(!useCreditsBox.checked) return;
 	var colors1 = ["#f485a1", "#0a6e9b", "#f49677", "#d0424b", "#d673c8", "#879d50", "#7193b5", "#918ac6", "#f2549b", "#20536f", "#6ba3d3", "#e8b0ca", "#f49174", "#f26d77"];
@@ -313,12 +317,16 @@ function updateCanvasHue() {
 	}
 }
 
+// Amount of images!
 function initArrays() {
-	maskArray = new Array(14);
+	// The amound of text colors 
+	maskArray = new Array(textcoloramount);
 	for (var i = 1; i <= maskArray.length; i++) {
 		maskArray[i-1] = i + '.png';
 	}
-	bgArray = new Array(22);
+	// The amount of backgrounds (I think this has something to do with how many backgrounds there are because by default there are 22 background and the only 2 places that 22 appears in this file is here and a color hex near the top)
+	bgArray = new Array(bgcoloramount);
+	// bgArray makes sense due to it being a list of images
 	for (var i = 1; i <= bgArray.length; i++) {
 		bgArray[i-1] = i + '.png';
 	}
