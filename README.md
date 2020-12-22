@@ -1,4 +1,4 @@
-### I think at this point this could be called archived...
+### I'll be working on an update over the 2020 christmas peroid. I'll try to add Steven Universe Future
 # Steven Universe - title card generator!
 This is a fork of a Steven Universe title card generator; You can find it [Here](https://github.com/SpopovabgS/SU-titlecard-generator) it was made by [SpopovabgS](https://github.com/SpopovabgS)
 ## How does this work?
